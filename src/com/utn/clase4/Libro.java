@@ -7,7 +7,7 @@ public class Libro {
     private int precio;
     private int stock;
     private Autor autor;
-    private Autor[] autores;
+    private Autor[] autores = new Autor[10];
 
     public Libro() {
 

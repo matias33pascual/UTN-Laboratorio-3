@@ -25,8 +25,8 @@ import java.util.Locale;
 
 public class Clase4 {
     public static void init() {
-        //ejemploStringMetodos();
-        //ejemploStringBuilder();
+        ejemploStringMetodos();
+        ejemploStringBuilder();
         ejemploArraysToString();
     }
 
@@ -41,7 +41,7 @@ public class Clase4 {
         // EJEMPLOS
 
         /* cada metodo devuelve un nuevo string. No cambia el orginial */
-        String fraseConFormato_1 = frase.toUpperCase(Locale.ROOT);
+        String fraseConFormato_1 = frase.toUpperCase();
         String fraseConFormato_2 = frase.replace('!', '?');
         String fraseConFormato_3 = frase.trim();
 
