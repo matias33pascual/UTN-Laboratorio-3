@@ -17,6 +17,13 @@ import java.util.Scanner;
 
 public class Clase1 {
 
+    public static void init() {
+        holaMundo();
+        introduciendoDatos();
+        ejercicio1();
+        arreglos();
+    }
+
     public static void holaMundo() {
         System.out.println("hola mundo!");
 

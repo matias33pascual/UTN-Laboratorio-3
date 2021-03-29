@@ -16,6 +16,11 @@ import com.utn.clase2.Persona;
 
 public class Clase2 {
 
+    public static void init(){
+        ejemploOverride();
+        ejemploModificadoresAcceso();
+    }
+
     public static void ejemploModificadoresAcceso() {
         Persona persona = new Persona();
 

@@ -28,6 +28,7 @@ public class Clase3 {
         Persona persona3 = new Persona();
 
         System.out.println(persona1 + "\n" + persona2 + "\n" + persona3);
+        System.out.println("id: " + Persona.getId());
     }
 
     public static void ejemploTipos() {
@@ -45,15 +46,13 @@ public class Clase3 {
         // MOSTRANDO LA DIFERENCIA DE ASIGNACION DE VALORES ENTRE TIPOS
         // PRIMITIVOS Y OBJETOS
 
-
-        // un objeto se crea con el operador new cuando un objeto se crea,
+        // un objeto se crea con el operador new. Cuando un objeto se crea,
         // se devuelve la direccion de memoria donde esta ese objeto
 
         // la variable persona guarda la direccion de memoria donde esta creado el objeto
         Persona persona1 = new Persona();
 
         System.out.println("id persona1: " + persona1);   // vemos que su id es el 1
-
 
         // la variable persona2 guarda la direccion de memoria de un nuevo objeto
         Persona persona2 = new Persona();
@@ -67,7 +66,6 @@ public class Clase3 {
 
         // y vemos que pasa con el id de persona 2
         System.out.println("id persona2: " + persona2);   // el id de persona 2 ya no es 2, sino 33.
-
 
         // esto no pasa con los tipos primitivos
         int variableA = 10;
@@ -89,6 +87,8 @@ public class Clase3 {
         Persona persona1 = new Persona();   // el id de persona1 es 2 (recordemos que creamos un objeto en la funcion
                                             // ejemploObjetoComoParametro)
 
+        System.out.println(persona1);
+
         persona1 = personaT;                // aca el id de persona1 es el mismo que el personaT
         personaT.nuevoId(60);               // aca ambos pasan a tener el id 60
 
@@ -101,4 +101,10 @@ public class Clase3 {
 
         System.out.println(miInteger.intValue());
     }
+
+
+
+
+
+
 }

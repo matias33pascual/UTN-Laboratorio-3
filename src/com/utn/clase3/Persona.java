@@ -20,4 +20,8 @@ public class Persona {
     public String toString() {
         return String.valueOf(this.mId);
     }
+
+    public static int getId() {
+        return id;
+    }
 }
