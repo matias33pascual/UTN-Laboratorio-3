@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a8664e3-2dad-44ed-af6e-70a4c7c097cb" name="Default Changelist" comment="Clase3">
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/borrador/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/borrador/Melee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/borrador/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase4/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase4/Clase4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase4/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase3/Clase3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase3/Clase3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase3/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase3/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utn/clase1/Clase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase1/Clase1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/clase2/Clase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase2/Clase2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase2/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase2/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utn/clase3/Clase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase3/Clase3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utn/clase3/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase3/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase4/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase4/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase4/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase4/Libro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

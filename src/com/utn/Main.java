@@ -8,20 +8,13 @@
 
 package com.utn;
 
+import com.utn.clase1.Clase1;
+import com.utn.clase2.Clase2;
+import com.utn.clase3.Clase3;
 import com.utn.clase4.Clase4;
 
 public class Main {
-
     public static void main(String[] args) {
-
         Clase4.init();
-    }
-
-    public static void ejercicio1() {
-
-    }
-
-    public static void ejercicio2() {
-
     }
 }

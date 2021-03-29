@@ -8,11 +8,14 @@ public class Persona {
     private String nombre;  // private
     private int edad;
 
-    // CONSTRUCT VACIO
+    // --------------------------------------------------
+
+    // CONSTRUCTOR VACIO
     public Persona() {
 
     }
 
+    // CONSTRUCTOR CON PARAMETROS
     public Persona(double altura, double peso, String nombre, int edad) {
         this.altura = altura;
         this.peso = peso;
@@ -20,9 +23,10 @@ public class Persona {
         this.edad = edad;
     }
 
+    // --------------------------------------------------
+
     /// GETTERS Y SETTERS
     public void setEdad(int edad) {this.edad = edad;}
-
     public int getEdad() {return this.edad;}
 
     public double getAltura() {return this.altura;}
@@ -33,6 +37,8 @@ public class Persona {
 
     public String getNombre() {return this.nombre;}
     public void setNombre(String nombre) {this.nombre = nombre;}
+
+    // --------------------------------------------------
 
     // @Override:
     //      . se asegura que el metodo que estoy sobreescribiendo exista

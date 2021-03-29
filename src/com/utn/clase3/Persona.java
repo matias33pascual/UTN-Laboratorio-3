@@ -18,7 +18,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return String.valueOf(this.mId);
+        return String.valueOf(this.mId);    // convierte y devuelve el valor de mId, que es int
     }
 
     public static int getId() {

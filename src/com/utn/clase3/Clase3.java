@@ -51,12 +51,15 @@ public class Clase3 {
 
         // la variable persona guarda la direccion de memoria donde esta creado el objeto
         Persona persona1 = new Persona();
-
         System.out.println("id persona1: " + persona1);   // vemos que su id es el 1
+
+        // --------------------------------------------------
 
         // la variable persona2 guarda la direccion de memoria de un nuevo objeto
         Persona persona2 = new Persona();
         System.out.println("id persona2: " + persona2); // vemos que su id es el 2
+
+        // --------------------------------------------------
 
         // ahora asignamos a persona2 la direccion de persona1
         persona2 = persona1;
@@ -66,6 +69,8 @@ public class Clase3 {
 
         // y vemos que pasa con el id de persona 2
         System.out.println("id persona2: " + persona2);   // el id de persona 2 ya no es 2, sino 33.
+
+        // --------------------------------------------------
 
         // esto no pasa con los tipos primitivos
         int variableA = 10;

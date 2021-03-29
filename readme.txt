@@ -6,7 +6,7 @@ Prof. Matias Pascual
 
 En esta seccion encontrara los contenidos trabajados en 
 cada clase. Los codigos estan organizados en packages,
-ordenados segun su numero de la clase.
+ordenados segun su numero de clase.
 
 Package Borrador:
     utilizado solo para explicar contenidos en clase.

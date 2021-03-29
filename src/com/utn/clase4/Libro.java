@@ -40,10 +40,11 @@ public class Libro {
         this.autor = autor;
     }
 
+    // --------------------------------------------------
+
     public String getTitulo() {
         return titulo;
     }
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
@@ -51,7 +52,6 @@ public class Libro {
     public int getPrecio() {
         return precio;
     }
-
     public void setPrecio(int precio) {
         this.precio = precio;
     }
@@ -59,7 +59,6 @@ public class Libro {
     public int getStock() {
         return stock;
     }
-
     public void setStock(int stock) {
         this.stock = stock;
     }
@@ -67,7 +66,6 @@ public class Libro {
     public Autor getAutor() {
         return autor;
     }
-
     public void setAutor(Autor autor) {
         this.autor = autor;
     }
@@ -76,10 +74,11 @@ public class Libro {
     public Autor[] getAutores() {
         return autores;
     }
-
     public void setAutores(Autor[] autores) {
         this.autores = autores;
     }
+
+    // --------------------------------------------------
 
     public String mostrarAutores() {
         StringBuilder nombres = new StringBuilder();

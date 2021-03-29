@@ -34,7 +34,6 @@ public class Clase1 {
 
     public static void tipoDatos() {
 
-
         // NUMEROS ENTEROS
         byte edad = 30;
         short cantidadLibros = 1234;
@@ -51,12 +50,18 @@ public class Clase1 {
 
         System.out.println(numeroMenorEstrellas);
 
+        // --------------------------------------------------
+
         // NUMEROS REALES
         float peso = 50.4F;     // F para que sea float
         double altura = 2.5;
 
+        // --------------------------------------------------
+
         // CARACTERES
         char letra = 'a';
+
+        // --------------------------------------------------
 
         // BOOLEANS (verdadero o falso)
         boolean claveCorrecta = false;
@@ -71,8 +76,12 @@ public class Clase1 {
 
         System.out.println("ud ingreso: " + numero);
 
+        // --------------------------------------------------
+
         // mostrando con String.format
         System.out.println(String.format("ud ingreso %s", numero));
+
+        // --------------------------------------------------
 
         // string.format ejemplos:
         // https://www.javatpoint.com/java-string-format
