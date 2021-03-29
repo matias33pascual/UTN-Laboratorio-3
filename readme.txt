@@ -8,11 +8,10 @@ En esta seccion encontrara los contenidos trabajados en
 cada clase. Los codigos estan organizados en packages,
 ordenados segun su numero de clase.
 
-Package Borrador:
-    utilizado solo para explicar contenidos en clase.
+BORRADOR:
+    Utilizado solo para explicar contenidos en clase.
 
-Clase 1:
-
+CLASE 1:
     INTRODUCCION A LA SINTAXIS DE JAVA
         * El 'Hola Mundo' en Java
         * Tipos de datos
@@ -21,8 +20,7 @@ Clase 1:
         * Casteo para el ejercicio 1. Integer.valueOf(x)
         * Arreglos en Java
 
-Clase 2:
-
+CLASE 2:
     CREANDO OBJETOS
         * getters y setters
 
@@ -30,8 +28,7 @@ Clase 2:
         * Dentro de la misma clase: todos.
         * Dentro del mismo paquete: public, default.
 
-Clase 3:
-
+CLASE 3:
     STATIC Y DIFERENCIAS ENTRE TIPO PRIMITIVO Y OBJETO
         * static: atributos y metodos
         * Tipos primitivos
@@ -39,8 +36,7 @@ Clase 3:
         * Objeto como parametro
         * Wrappers
 
-Clase 4
-
+CLASE 4:
     CONSTRUCTORES
         * Constructor vacio
         * Constructor con parametros
@@ -51,6 +47,7 @@ Clase 4
         * String.format: https://www.javatpoint.com/java-string-format
         * Ejemplo de metodos
         * Arrays.toString()
+        * Ejemplo de Arrays.sort() y Arrays.ToString()
 
     STRING BUILDER
         * https://docs.oracle.com/javase/tutorial/java/data/buffers.html

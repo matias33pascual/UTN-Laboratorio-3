@@ -11,11 +11,13 @@
         * String.format: https://www.javatpoint.com/java-string-format
         * Ejemplo de metodos
         * Arrays.toString()
+        * Ejemplo de Arrays.sort() y Arrays.ToString()
 
     STRING BUILDER
         * https://docs.oracle.com/javase/tutorial/java/data/buffers.html
         * Utilizacion en la clase Libro para mostrar autores
  */
+
 package com.utn.clase4;
 
 import java.util.Arrays;
@@ -23,9 +25,9 @@ import java.util.Locale;
 
 public class Clase4 {
     public static void init() {
-        ejemploStringMetodos();
+        //ejemploStringMetodos();
         //ejemploStringBuilder();
-        //ejemploArraysToString();
+        ejemploArraysToString();
     }
 
     public static void ejemploStringMetodos() {
@@ -124,5 +126,16 @@ public class Clase4 {
         // otra forma de hacer lo mismo
         String string = Arrays.toString(nombres);
         System.out.println(string);
+
+        // -------------------------------------------
+
+        // ejemplo de Arrays.sort() y Arrays.toString()
+        int[] numeros = { 1,2, 8,9,78,45,6,1,2,6,10 };
+
+        // ordeno los numeros
+        Arrays.sort(numeros);
+
+        // muestro el resultado
+        System.out.println(Arrays.toString(numeros));
     }
 }
