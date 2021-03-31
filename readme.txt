@@ -52,3 +52,46 @@ CLASE 4:
     STRING BUILDER
         * https://docs.oracle.com/javase/tutorial/java/data/buffers.html
         * Utilizacion en la clase Libro para mostrar autores
+
+CLASE 5:
+    ORGANIZAR REGIONES EN EL CODIGO
+        * Region
+
+    FOR vs FOREACH
+        * Diferencias en la asignacion
+
+    LOCALDATE
+        * Utilizacion
+        * Metodo now()
+        * Metodo plus()
+        * Ejemplo de otros metodos
+
+        explicacion de java y el tiempo
+        https://javautodidacta.es/tiempo-en-java-localdate-localtime/
+
+        documentacion de referencia de LocalDate
+        https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html
+
+        documentacion de referencia de DateTimeFormatter
+        https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+
+    UUID
+        * Concepto
+        * Utilizacion
+        * substring para acortar el numero. Propuesto por alumno
+
+        Explicacion y documentacion de referencia
+        https://www.baeldung.com/java-uuid
+        https://docs.oracle.com/javase/7/docs/api/java/util/UUID.html
+
+    UML
+        * Asociacion y composicion en UML
+        * Breve explicacion de herencia en UML
+        * Ejemplo con clases libro y autor
+
+        Explicacion de como hacer un diagrama UML y breve explicacion de los conceptos
+        herencia y composicion
+        https://www.youtube.com/watch?v=Z0yLerU0g-Q&ab_channel=LucidchartEspa%C3%B1ol
+
+    HERENCIA
+        * Introduccion a herencia

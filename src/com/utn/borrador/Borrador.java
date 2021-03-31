@@ -1,6 +1,6 @@
 package com.utn.borrador;
 
-public class Melee {
+public class Borrador {
     private int hora;
     private int minuto;
     private int segundo;

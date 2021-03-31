@@ -6,6 +6,8 @@ public class Autor {
     private String email;
     private char genero;
 
+    // region constructores
+
     // ejemplos de diferentes constructores
     public Autor() {
 
@@ -33,7 +35,11 @@ public class Autor {
         this.genero = genero;
     }
 
+    // endregion
+
     // --------------------------------------------------
+
+    // region getters y setters
 
     public String getNombre() {
         return nombre;
@@ -60,4 +66,6 @@ public class Autor {
     public void setGenero(char genero) {
         this.genero = genero;
     }
+
+    // endregion
 }
