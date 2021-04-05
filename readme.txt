@@ -29,8 +29,11 @@ CLASE 2:
         * Dentro del mismo paquete: public, default.
 
 CLASE 3:
-    STATIC Y DIFERENCIAS ENTRE TIPO PRIMITIVO Y OBJETO
-        * static: atributos y metodos
+   STATIC
+        * atributos statics
+        * metodos statics
+
+   DIFERENCIAS ENTRE TIPOS PRIMITIVOS Y OBJETOS
         * Tipos primitivos
         * Objeto vs tipo primitivo
         * Objeto como parametro
@@ -105,3 +108,6 @@ CLASE 6:
     CONSTRUCTORES EN HERENCIA
         * Breve ejemplo con clases Persona y Empleado
         * Como utilizar clases que coinciden en sus nombres, pero estan en diferentes package
+
+    CONSTANTES
+        * atributos final

@@ -19,6 +19,9 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class Clase6 {
+
+    public static final String ADMIN = "admin";
+
     public static void init() {
         multiplesNombresDeClase();
     }

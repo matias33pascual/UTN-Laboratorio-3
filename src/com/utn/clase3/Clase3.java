@@ -1,8 +1,11 @@
 /*
     Clase 3
 
-    STATIC Y DIFERENCIAS ENTRE TIPO PRIMITIVO Y OBJETO
-        * static: atributos y metodos
+    STATIC
+        * atributos statics
+        * metodos statics
+
+    DIFERENCIAS ENTRE TIPOS PRIMITIVOS Y OBJETOS
         * Tipos primitivos
         * Objeto vs tipo primitivo
         * Objeto como parametro

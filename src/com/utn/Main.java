@@ -19,6 +19,12 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+
+        final int NUMERO = 10;
+
+        // NUMERO += 20; // error: NUMERO es una constante
+        // Clase6.ADMIN = 20; // error: ADMIN es una constante
+
         Clase6.init();
     }
 }
