@@ -95,3 +95,13 @@ CLASE 5:
 
     HERENCIA
         * Introduccion a herencia
+
+CLASE 6:
+    EJEMPLOS DE PARSE EN LOCALDATETIME
+        * Pasar una fecha en String a LocalDate
+        * Pasar una hora en String a LocalTime
+        * Pasar una fecha y hora en String a LocalDateTime
+
+    CONSTRUCTORES EN HERENCIA
+        * Breve ejemplo con clases Persona y Empleado
+        * Como utilizar clases que coinciden en sus nombres, pero estan en diferentes package
