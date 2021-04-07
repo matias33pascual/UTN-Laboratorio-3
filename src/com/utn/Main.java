@@ -14,17 +14,15 @@ import com.utn.clase3.Clase3;
 import com.utn.clase4.Clase4;
 import com.utn.clase5.Clase5;
 import com.utn.clase6.Clase6;
+import com.utn.clase6.Cliente;
+import com.utn.clase6.Empleado;
+import com.utn.clase6.Persona;
+import com.utn.clase7.Clase7;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-
-        final int NUMERO = 10;
-
-        // NUMERO += 20; // error: NUMERO es una constante
-        // Clase6.ADMIN = 20; // error: ADMIN es una constante
-
-        Clase6.init();
+        Clase7.init();
     }
 }

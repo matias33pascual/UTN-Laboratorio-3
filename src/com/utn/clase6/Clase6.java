@@ -9,6 +9,9 @@
     CONSTRUCTORES EN HERENCIA
         * Breve ejemplo con clases Persona y Empleado
         * Como utilizar clases que coinciden en sus nombres, pero estan en diferentes package
+
+    CONSTANTES
+        * atributos final
  */
 
 package com.utn.clase6;
@@ -19,16 +22,19 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class Clase6 {
-
     public static final String ADMIN = "admin";
+    public final String password = "password";
 
     public static void init() {
-        multiplesNombresDeClase();
+        ejemploLocalDateTimeParse();
     }
+
 
     public static void ejemploLocalDateParse() {
         String fechaComoString = "12/02/1985";
+
         LocalDate fecha = LocalDate.parse(fechaComoString, DateTimeFormatter.ofPattern("d/M/y"));
+
         System.out.println(fecha);
 
         System.out.println(fecha.format(DateTimeFormatter.ofPattern("d/M/y")));
@@ -44,7 +50,7 @@ public class Clase6 {
         String horaComoStringSinSegundos = "15:19";
         LocalTime timeSinSegundos = LocalTime.parse(horaComoStringSinSegundos, DateTimeFormatter.ofPattern("H:m"));
 
-        System.out.println(time);
+        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("H:m")));
         System.out.println(timeSinSegundos);
 
         // un error comun: pasar la hora sin segundos, pero ponemos segundos en el formatter
@@ -54,7 +60,7 @@ public class Clase6 {
         String string = "31/06/1987 15:15";
         LocalDateTime fechaHora = LocalDateTime.parse(string, DateTimeFormatter.ofPattern("d/M/y H:m"));
 
-        System.out.println(fechaHora);
+        System.out.println(fechaHora.format(DateTimeFormatter.ofPattern("d/M/y")));
 
         // error comun: no concidir los espacios en el formatter
         // String string = "31/06/1987 15:15";
@@ -67,9 +73,13 @@ public class Clase6 {
     public static void multiplesNombresDeClase() {
         Persona personaClase6 = new Persona();
 
+        com.utn.borrador.Persona personaBorrador = new com.utn.borrador.Persona();
+
+        /*
         com.utn.clase3.Persona personaClase3 = new com.utn.clase3.Persona();
 
         com.utn.clase2.Persona personaClase2 = new com.utn.clase2.Persona();
+        */
 
         // consejo: escribir Persona y seleccionar del autocompletado el que queremos usar
     }

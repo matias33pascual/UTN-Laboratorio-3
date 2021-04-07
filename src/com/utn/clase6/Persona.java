@@ -13,8 +13,13 @@ public class Persona {
         this.edad = edad;
     }
 
+    private void saludar() {
+        System.out.println("hola!");
+    }
+
     @Override
     public String toString() {
         return "nombre: " + this.nombre + "\n" + "edad: " + this.edad;
     }
+
 }
