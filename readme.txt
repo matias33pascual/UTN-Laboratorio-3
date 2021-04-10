@@ -111,3 +111,23 @@ CLASE 6:
 
     CONSTANTES
         * atributos final
+
+CLASE 7:
+    HERENCIA
+        * Herencia en UML
+        * Constructores con herencia
+        * Clase abstracta y metodos abstractos
+        * Sobreescritura de metodos
+        * Ejemplo de herencia de una clase que hereda de otra clase
+        * Diferencia entre super y this
+        * Modificador de acceso: protected
+        * Clase Object
+
+        Referencias utiles:
+
+        constructores y super:
+        https://www.arquitecturajava.com/java-constructores-y-super/
+
+        clase object:
+        https://javadesdecero.es/clases/object/
+
