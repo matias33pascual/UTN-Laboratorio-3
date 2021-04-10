@@ -16,6 +16,8 @@
 
 package com.utn.clase6;
 
+import com.utn.clase7.Gato;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;

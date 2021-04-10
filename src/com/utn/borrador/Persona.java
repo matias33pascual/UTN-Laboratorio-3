@@ -21,6 +21,15 @@ public class Persona {
         this.dni = dni;
     }
 
+    public int numero() {
+        return 100;
+    }
+
+    @Override
+    public String toString() {
+        return Integer.toString(this.numero());
+    }
+
     public String getNombre() {
         return nombre;
     }

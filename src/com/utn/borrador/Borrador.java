@@ -6,7 +6,11 @@ public class Borrador {
     private int segundo;
 
     public static void init() {
-        Persona persona = new Persona("mat");
+        //Empleado empleado = new Empleado();
+
+        Persona persona = new Empleado();
+
+        System.out.println(persona.toString());
     }
 
 

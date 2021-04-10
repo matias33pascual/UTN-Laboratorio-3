@@ -5,7 +5,7 @@ package com.utn.clase7;
 // UNA CLASE PADRE PUEDE TENER MUCHOS CLASES HIJOS (sub clases)
 
 /**
- * abstract: le estamos diciendo que la clase Animal no puede ser instanciada *
+ * abstract: le estamos diciendo que la clase Animal no puede ser instanciada
  * hacer Animal animal = new Animal(); generaria un error
  *
  * si la clase tiene al menos un metodo abstracto, entonces la clase debe ser
@@ -22,6 +22,7 @@ public abstract class Animal {
 
     // debe haber un constructor default o tendremos errores en las subclases
     public Animal() {
+
     }
 
     public Animal(String nombre) {

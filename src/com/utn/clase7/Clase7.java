@@ -25,25 +25,30 @@ import com.utn.clase7.ejemploHerencia.Animal;
 
 public class Clase7 {
     public static void init() {
-        ejemploClaseObject();
+        ejemploHerenciaPolimorfismoConArreglos();
     }
 
     public static void ejemploHerenciaAbstract() {
-        // Animal animal = new Animal();   // error: es una clase abstracta, no puede instanciarse
+        //com.utn.clase7.Animal animal = new com.utn.clase7.Animal();   // error: es una clase abstracta, no puede instanciarse
 
         Perro perro = new Perro();
         Gato gato = new Gato();
+        Persa gatoPersa = new Persa("gato persa");
 
         perro.hacerRuido();
         gato.hacerRuido();
+        gatoPersa.hacerRuido();
     }
 
     public static void ejemploHerenciaPolimorfismo() {
-        com.utn.clase7.ejemploHerencia.Animal animal = new com.utn.clase7.ejemploHerencia.Perro();
+        com.utn.clase7.ejemploHerencia.Animal
+                animal = new com.utn.clase7.ejemploHerencia.Perro();
+
+        Animal animal1 = new com.utn.clase7.ejemploHerencia.Perro();
 
         animal.emitirSonido(); // utilizara el de Perro
 
-        // animal.agarrarPelota(); // error este metodo no esta en la clase animal
+        //animal.agarrarPelota(); // error este metodo no esta en la clase animal
     }
 
     public static void ejemploHerenciaPolimorfismoConArreglos() {
@@ -65,6 +70,7 @@ public class Clase7 {
         for(Animal animal : animales) {
             System.out.print(i + ": ");
 
+            animales[0].emitirSonido();
             animal.emitirSonido();
 
             i++;
@@ -95,6 +101,7 @@ public class Clase7 {
         System.out.println(animal.equals(animal2));
 
         System.out.println(animal.hashCode());
+        System.out.println(animal2.hashCode());
 
         System.out.println(animal.toString());
     }
