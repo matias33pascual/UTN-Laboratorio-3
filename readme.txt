@@ -131,3 +131,18 @@ CLASE 7:
         clase object:
         https://javadesdecero.es/clases/object/
 
+CLASE 8:
+    THIS y SUPER EN HERENCIA DURANTE EL RUNTIME (ejecucion del programa)
+        * ejemplos en clases Persona y Empleado
+        * uso de metodos publicos
+        * uso de metodos privados
+        * uso de atributos
+
+    REFERENCIAS POLIMORFICAS
+        * ejemplo con Object y Persona
+        * instance of
+        * utilizando referencias y casteos
+
+    CLASES FINAL y ABSTRACT
+        * diferencia entre final y abstract
+        * ejemplos de uso

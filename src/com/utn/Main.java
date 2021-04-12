@@ -19,11 +19,12 @@ import com.utn.clase6.Cliente;
 import com.utn.clase6.Empleado;
 import com.utn.clase6.Persona;
 import com.utn.clase7.Clase7;
+import com.utn.clase8.Clase8;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Borrador.init();
+        Clase8.init();
     }
 }
