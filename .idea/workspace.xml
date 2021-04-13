@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8664e3-2dad-44ed-af6e-70a4c7c097cb" name="Default Changelist" comment="Clase6 con nuevo ejemplo. Corregidos readme y contenidos de Clase 3">
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase8/Clase8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase8/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase8/ClienteRegular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase8/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase8/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase8/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/borrador/Borrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/borrador/Borrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase8/Clase8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase8/Clase8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase8/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase8/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase8/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase8/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase8/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase8/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +200,10 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.time.format.DateTimeParseException" package="java.time.format" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

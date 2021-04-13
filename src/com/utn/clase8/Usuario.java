@@ -1,6 +1,6 @@
 package com.utn.clase8;
 
-// esta clase no
+// esta clase no se instacia
 public abstract class Usuario {
     public String nombreUsuario;
     public String apellidoUsuario;

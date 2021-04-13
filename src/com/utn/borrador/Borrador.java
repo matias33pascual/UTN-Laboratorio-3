@@ -1,5 +1,9 @@
 package com.utn.borrador;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class Borrador {
     private int hora;
     private int minuto;
@@ -8,9 +12,11 @@ public class Borrador {
     public static void init() {
         //Empleado empleado = new Empleado();
 
-        Persona persona = new Empleado();
+        String fecha = "2021-04-12";
 
-        System.out.println(persona.toString());
+        LocalDate nuevaFecha = LocalDate.parse(fecha, DateTimeFormatter.ofPattern("y-M-d"));
+
+        System.out.println(nuevaFecha.toString());
     }
 
 

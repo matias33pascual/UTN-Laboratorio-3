@@ -29,7 +29,7 @@ public class Empleado extends Persona {
     }
 
     public void ejemploObtenerNombre_empleado() {
-        // super.obtenerNombre(); // error: no puedo acceder porque es privado
+        //super.obtenerNombre(); // error: no puedo acceder porque es privado
         super.ejemploObtenerNombre();
         System.out.println("nombre empleado: " + this.obtenerNombre());
         System.out.println("apellido empleado: " + this.apellido);

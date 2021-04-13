@@ -8,7 +8,7 @@ import java.util.UUID;
 
 // esta clase es final, por lo que no podra ser heredada
 
-public final class Cliente extends Usuario{
+public final class Cliente extends Usuario {
 
     private UUID id;
     private int numeroCuenta;

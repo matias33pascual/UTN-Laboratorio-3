@@ -55,8 +55,8 @@ public class Clase8 {
         arregloDeObject[1] = persona;
 
         // el tipo de referencia es Object
-        // arregloDeObject[1].saludar(); // error: este metodo no esta en la clase object
-        // System.out.println(arregloDeObject[1].apellido); // error: apellido no esta en object
+        //arregloDeObject[1].saludar(); // error: este metodo no esta en la clase object
+        //System.out.println(arregloDeObject[1].apellido); // error: apellido no esta en object
 
         /**
          * el metodo o atributo que se invoca debe estar en la clase del tipo declarado
@@ -93,8 +93,8 @@ public class Clase8 {
                 entonces hacemos el casteo
             */
 
-            Persona persona2 = (Persona) arregloDeObject[0];
-            persona2.saludar();
+            Persona persona3 = (Persona) arregloDeObject[0];
+            persona3.saludar();
 
             System.out.println("------------------------");
 
@@ -102,6 +102,4 @@ public class Clase8 {
             ((Persona) arregloDeObject[0]).saludar();
         }
     }
-
-
 }
