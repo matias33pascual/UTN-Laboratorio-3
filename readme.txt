@@ -146,3 +146,19 @@ CLASE 8:
     CLASES FINAL y ABSTRACT
         * diferencia entre final y abstract
         * ejemplos de uso
+
+CLASE 9:
+    COLLECTIONS
+        * List
+            _ ArrayList : https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+            _ LinkedList : https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
+            _ Vector : https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html
+            _ Stack : https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
+            _ Map : https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
+
+        * Iterator : https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
+
+    Referencias:
+    https://www.javatpoint.com/collections-in-java#:~:text=The%20Collection%20in%20Java%20is,a%20single%20unit%20of%20objects.
+    https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
+    https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
