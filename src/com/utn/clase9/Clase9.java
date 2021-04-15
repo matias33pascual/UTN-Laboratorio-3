@@ -25,9 +25,9 @@ public class Clase9 {
         //ejemplo_arrayList();
         //ejemplo_linkedList();
         //ejemplo_vector();
-        //ejemplo_stack();
         //ejemplo_iterator();
-        //ejemplo_map();
+        //ejemplo_stack();
+        ejemplo_map();
     }
 
     private static void ejemplo_arrayList() {
@@ -141,7 +141,7 @@ public class Clase9 {
     private static void ejemplo_stack() {
         Stack<String> palabras = new Stack<>();
 
-        // agrego elementos a la fila
+        // agrego elementos a la pila
         palabras.push("primer palabra");
         palabras.push("segunda palabra");
         palabras.push("tercer palabra");
@@ -154,7 +154,6 @@ public class Clase9 {
         System.out.println(palabras);
 
         // muestro con iterator
-
         Iterator<String> iterator = palabras.iterator();
 
         while(iterator.hasNext()) {

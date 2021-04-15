@@ -8,9 +8,7 @@ public class Persona {
     public Persona(String nombre) { this.nombre = nombre; }
 
     // getter y setter
-    public String getNombre() {
-        return this.nombre;
-    }
+    public String getNombre() { return this.nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
 
     // metodo
