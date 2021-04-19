@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8664e3-2dad-44ed-af6e-70a4c7c097cb" name="Default Changelist" comment="Clase6 con nuevo ejemplo. Corregidos readme y contenidos de Clase 3">
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/AtencionCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/Clase10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/Practicante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/resolucionEjercicios/Resolucion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/resolucionEjercicios/referencia/Cancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/resolucionEjercicios/referencia/Genero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/resolucionEjercicios/referencia/ListaBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/resolucionEjercicios/referencia/ListaReproduccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase10/resolucionEjercicios/referencia/Reproduccion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase9/Clase9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase9/Clase9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/clase9/Clase9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase9/Clase9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/clase9/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase9/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase9/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase9/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

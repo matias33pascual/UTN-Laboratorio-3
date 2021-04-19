@@ -162,3 +162,21 @@ CLASE 9:
     https://www.javatpoint.com/collections-in-java#:~:text=The%20Collection%20in%20Java%20is,a%20single%20unit%20of%20objects.
     https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
     https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
+
+CLASE 10:
+    INTERFACES
+        * Creacion y utilizacion
+
+    EQUALS
+        * Comparamos los atributos de dos objetos segun nuestra preferencia
+
+    HASHCODE:
+        * Es un codigo que representa un objeto
+        * https://es.wikipedia.org/wiki/HashCode()_(Java)#:~:text=En%20el%20lenguaje%20de%20programaci%C3%B3n,defecto%2C%20por%20la%20clase%20Object.
+        * Para que utilizamos el metodo hashCode: https://es.wikipedia.org/wiki/Tabla_hash
+
+    INTERFAZ COMPARABLE
+        * Compara dos objetos y devuelve un valor que representa su diferencia
+
+    RESOLUCION:
+        * Guia V. Primeros pasos
