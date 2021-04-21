@@ -11,6 +11,7 @@ package com.utn;
 import com.utn.borrador.Borrador;
 import com.utn.clase1.Clase1;
 import com.utn.clase10.Clase10;
+import com.utn.clase11.Clase11;
 import com.utn.clase2.Clase2;
 import com.utn.clase3.Clase3;
 import com.utn.clase4.Clase4;
@@ -26,6 +27,6 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Clase10.init();
+        Clase11.init();
     }
 }

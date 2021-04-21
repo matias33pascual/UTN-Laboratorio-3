@@ -56,7 +56,7 @@ public class Clase10 {
 
     private static void ejemploComparable() {
         Empleado empleado1 = new Empleado("Michael", "Scott", "Ventas", 2);
-        Empleado empleado2 = new Empleado("Michael", "Flamel", "Ventas", 3);
+        Empleado empleado2 = new Empleado("Michael", "Flamel", "Ventas", 1);
 
         System.out.println("Empleados 1 y 2 : " + empleado1.compareTo(empleado2));
     }

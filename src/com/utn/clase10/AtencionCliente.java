@@ -4,7 +4,7 @@ public interface AtencionCliente {
     // public es redundante, todos los metodos son public por defecto
     public void saludar();
 
-    void perdirDatos();
+    void pedirDatos();
     void transferirAOtroDepartamento();
     void dejarEnEspera();
 

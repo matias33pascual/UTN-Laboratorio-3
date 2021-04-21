@@ -6,8 +6,7 @@ public class Empleado implements Comparable, AtencionCliente{
     private String departamento;
     private int numero;
 
-    public Empleado() {
-    }
+    public Empleado() {}
 
     public Empleado(String nombre, String apellido, String departamento, int numero) {
         this.nombre = nombre;
@@ -22,7 +21,7 @@ public class Empleado implements Comparable, AtencionCliente{
         if (obj == this)
             return true;
 
-        // si el objeto no es una instancia de persona...
+        // si el objeto no es una instancia de empleado ...
         if (!(obj instanceof Empleado))
             return false;
 
@@ -63,7 +62,7 @@ public class Empleado implements Comparable, AtencionCliente{
         if (resultado == 0) {
             resultado = this.departamento.compareTo(empleado.departamento);
 
-            if  (resultado == 0) {
+            if (resultado == 0) {
                 resultado = Integer.compare(this.numero, empleado.numero);
             }
         }
@@ -111,7 +110,7 @@ public class Empleado implements Comparable, AtencionCliente{
     }
 
     @Override
-    public void perdirDatos() {
+    public void pedirDatos() {
 
     }
 

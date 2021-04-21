@@ -180,3 +180,18 @@ CLASE 10:
 
     RESOLUCION:
         * Guia V. Primeros pasos
+
+CLASE 11:
+    MAP
+        * Concepto
+        * Utilizacion
+
+    HASHMAP
+        * Como implementarlo
+
+    MOSTRAR REFERENCIA
+        * TEORIA: Clase 14 - Collection - Set.pdf
+        * Como elegir que usar
+
+    RESOLUCION
+        * Ejercicio 1. Como utilizar Hashmap en el ejercicio
