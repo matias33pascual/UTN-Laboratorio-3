@@ -1,6 +1,6 @@
 package com.utn.borrador;
 
-public class Empleado extends Persona {
+/*public class Empleado extends Persona {
 
     @Override
     public int numero() {
@@ -12,3 +12,4 @@ public class Empleado extends Persona {
         return Integer.toString(this.numero());
     }
 }
+*/

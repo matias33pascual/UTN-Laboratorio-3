@@ -207,10 +207,3 @@ CLASE 12:
             _ Comentarios
             _ Cohesion (atributos y metodos)
             _ Acomplamiento (comunicacion entre metodos)
-
-Clase 13:
-    EXECPCIONES
-        * Manejo de excepciones
-        * try, catch, finally
-        * Tipos de excepciones
-        * Creando una excepcion

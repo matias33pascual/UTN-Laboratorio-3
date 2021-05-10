@@ -56,9 +56,15 @@ public class Persona {
     }
 
     // mostrar que pasa si hago esto en el hashmap
+
+
     @Override
     public int hashCode() {
-        return 20;
+        return this.dni;
+    }
+
+    public int getDni() {
+        return this.dni;
     }
 
     public void setDni(int dni) {

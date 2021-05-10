@@ -75,7 +75,7 @@ public class Clase6 {
     public static void multiplesNombresDeClase() {
         Persona personaClase6 = new Persona();
 
-        com.utn.borrador.Persona personaBorrador = new com.utn.borrador.Persona();
+        //com.utn.borrador.Persona personaBorrador = new com.utn.borrador.Persona();
 
         /*
         com.utn.clase3.Persona personaClase3 = new com.utn.clase3.Persona();

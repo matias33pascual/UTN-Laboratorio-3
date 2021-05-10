@@ -24,7 +24,7 @@ public class Clase11 {
     public static void init() {
         //ejemplo_Map();
         //ejemplo_Hashmap();
-        //ejercicio_1();
+        ejercicio_1();
     }
 
     private static void ejemplo_Hashmap() {
@@ -58,7 +58,7 @@ public class Clase11 {
         documentoPersonas.put(567, "Paola");
 
         documentoPersonas.forEach(
-                (k,v) ->{
+                (k,v) -> {
                     System.out.println("key: " + k);
                     System.out.println("value: " + v);
                     System.out.println("------------");
@@ -76,7 +76,7 @@ public class Clase11 {
         // los agrego al hashmap segun su hashcode
         HashMap<Integer, Persona> lista_hash = new HashMap<Integer, Persona>();
 
-        lista_hash.put(per1.hashCode(), per1);
+        lista_hash.put(per1.getDni(), per1);
         lista_hash.put(per2.hashCode(), per2);
         lista_hash.put(per3.hashCode(), per3);
 
