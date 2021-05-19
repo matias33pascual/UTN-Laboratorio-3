@@ -17,9 +17,33 @@ import java.util.Scanner;
 
 public class Clase13 {
     public static void init() {
+
+        int numero = 1;
+
+        Scanner s = new Scanner(System.in);
+
+        while(numero != 0) {
+            try {
+                s.reset();
+                System.out.println("ingrese un numero");
+                System.out.println("para salir ingrese 0 (cero)");
+                System.out.print(">");
+
+                numero = s.nextInt();
+
+
+            } catch (InputMismatchException e) {
+                System.out.println("debe ingresar un numero");
+                System.out.println("------------------------");
+            }
+            finally {
+                s.close();
+            }
+        }
+
         //ejemplo_1();
         //ejemplo_2();
-        //ejemplo_3();
+        ejemplo_3();
     }
 
     // -----------------------------------------------------------------------------
@@ -28,25 +52,11 @@ public class Clase13 {
         int[] arreglo = {1,2,3,4,5,6,7,8,9,10};
 
         try {
-            buscarNumero(arreglo, 15);
+            buscarNumero(15);
         }
         catch(Exception e) {
             System.out.println(e.getMessage());
         }
-    }
-
-    public static void buscarNumero(int numero) throws Exception {
-
-        int[] arreglo = {1,2,3,4,5,6,7,8,9,10};
-
-        for(var n : arreglo) {
-            if(n == numero) {
-                System.out.println("el numero " + numero + " existe en el arreglo.");
-                return;
-            }
-        }
-
-        throw new Exception("no existe el numero");
     }
 
     public static void buscarNumero(int[] arreglo, int numero) {
@@ -64,6 +74,22 @@ public class Clase13 {
         }
     }
 
+    public static void buscarNumero(int numero) throws Exception {
+
+        int[] arreglo = {1,2,3,4,5,6,7,8,9,10};
+
+        for(var n : arreglo) {
+            if(n == numero) {
+                System.out.println("el numero " + numero + " existe en el arreglo.");
+                return;
+            }
+        }
+
+        throw new Exception("no se encontro el numero");
+    }
+
+
+
     // -----------------------------------------------------------------------------
 
     public static void ejemplo_2() {
@@ -78,16 +104,24 @@ public class Clase13 {
             numero = new Scanner(System.in).nextInt();
         */
 
+        Scanner s = new Scanner(System.in);
+
         while(numero != 0) {
             try {
+                s.reset();
                 System.out.println("ingrese un numero");
                 System.out.println("para salir ingrese 0 (cero)");
                 System.out.print(">");
-                numero = new Scanner(System.in).nextInt();
+
+                numero = s.nextInt();
+
 
             } catch (InputMismatchException e) {
                 System.out.println("debe ingresar un numero");
                 System.out.println("------------------------");
+            }
+            finally {
+                s.close();
             }
         }
     }
@@ -98,9 +132,12 @@ public class Clase13 {
         Persona persona = new Persona();
         Scanner scanner = new Scanner(System.in);
 
+
+
         try {
             System.out.println("ingrese su numero de usuario");
             Integer numeroUsuario = scanner.nextInt();
+            scanner.reset();
 
             System.out.println("ingrese su nombre");
             String nombre = scanner.next();

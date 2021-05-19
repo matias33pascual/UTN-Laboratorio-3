@@ -5,48 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8664e3-2dad-44ed-af6e-70a4c7c097cb" name="Default Changelist" comment="Clase6 con nuevo ejemplo. Corregidos readme y contenidos de Clase 3">
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/Borrador$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/MiPersona.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/Clase12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/ejercicio_1/Ejercicio_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/ejercicio_2/Cliente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/ejercicio_2/Ejercicio_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/ejercicio_2/Persona.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/ejercicio_2/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/ejercicio_3/Ejercicio_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/Clase13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/NombreNoValidoExcepcion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/Persona.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/Clase12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/ejercicio_1/Ejercicio_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/ejercicio_2/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/ejercicio_2/Ejercicio_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/ejercicio_2/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/ejercicio_2/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase12/ejercicio_3/Ejercicio_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase13/Clase13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase13/NombreNoValidoExcepcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utn/clase13/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/librerias/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_archivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/utn/clase14/Clase14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UTN-Programacion-Laboratorio-3-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UTN-Programacion-Laboratorio-3-2021.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/Borrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/Borrador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/Empleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/borrador/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase11/Clase11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase11/Clase11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase11/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase11/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase6/Clase6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase6/Clase6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase12/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/Clase13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/Clase13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UTN-Programacion-Laboratorio-3-2021/com/utn/clase13/Persona.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/utn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/borrador/Borrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/borrador/Borrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/borrador/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/borrador/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/borrador/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/borrador/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/borrador/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/clase11/Clase11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase11/Clase11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/clase11/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase11/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utn/clase6/Clase6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase6/Clase6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase13/Clase13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase13/Clase13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utn/clase13/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utn/clase13/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,10 +118,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/librerias/gson-2.8.6.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">

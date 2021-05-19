@@ -15,7 +15,7 @@ public class Persona {
     // -----------------------------------------------------------------------------
 
     public void setNombre(String nombre) throws NombreNoValidoExcepcion {
-        if(nombre == "no valido") {
+        if(nombre.compareTo("noValido") == 0) {
             throw new NombreNoValidoExcepcion("no puede ingresar ese nombre");
         }
         else {
