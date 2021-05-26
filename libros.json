@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Manual de C",
+    "precio": 1500,
+    "stock": 500
+  },
+  {
+    "titulo": "Manual de C++",
+    "precio": 1700,
+    "stock": 200
+  },
+  {
+    "titulo": "Manual de C#",
+    "precio": 2700,
+    "stock": 400
+  }
+]
