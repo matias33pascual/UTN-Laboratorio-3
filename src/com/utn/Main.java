@@ -15,6 +15,7 @@ import com.utn.clase11.Clase11;
 import com.utn.clase13.Clase13;
 import com.utn.clase14.Clase14;
 import com.utn.clase15.Clase15;
+import com.utn.clase16.Clase16;
 import com.utn.clase2.Clase2;
 import com.utn.clase3.Clase3;
 import com.utn.clase4.Clase4;
@@ -30,6 +31,6 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Clase15.init();
+        Clase16.init();
     }
 }

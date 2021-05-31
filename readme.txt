@@ -214,3 +214,34 @@ Clase 13:
         * try, catch, finally
         * Tipos de excepciones
         * Creando una excepcion
+
+Clase 14:
+    Utilizacion de Github
+        * INTRODUCCION
+        * GIT EXTENSIONS
+
+    Utilizacion de archivos
+        * Escribir
+        * Leer
+
+    JSON
+        * Utilizando gson
+
+Clase 15:
+    Genericos
+        * Creacion y utilizacion de una clase generica
+
+    Json
+        * Como guardar la informacion en archivos
+
+Clase 16:
+    SERIALIZACION
+        * interfaz Serializable
+        * control de versiones
+        * guardando una persona
+        * leyendo una persona
+        * guardando un arraylist
+        * leyendo un arraylist
+
+    Referencias:
+        * https://docs.oracle.com/javase/8/docs/platform/serialization/spec/serial-arch.html
